@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		639357A81991294400AB8E1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357A71991294400AB8E1A /* main.m */; };
 		639357AB1991294400AB8E1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357AA1991294400AB8E1A /* AppDelegate.m */; };
-		639357AE1991294400AB8E1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357AD1991294400AB8E1A /* ViewController.m */; };
 		639357B11991294400AB8E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639357AF1991294400AB8E1A /* Main.storyboard */; };
 		639357B31991294400AB8E1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639357B21991294400AB8E1A /* Images.xcassets */; };
 		639357BF1991294400AB8E1A /* UITableViewController_Challange_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357BE1991294400AB8E1A /* UITableViewController_Challange_SolutionTests.m */; };
@@ -31,8 +30,6 @@
 		639357A71991294400AB8E1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639357A91991294400AB8E1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		639357AA1991294400AB8E1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		639357AC1991294400AB8E1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		639357AD1991294400AB8E1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		639357B01991294400AB8E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		639357B21991294400AB8E1A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		639357B81991294400AB8E1A /* UITableViewController Challange SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challange SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +78,6 @@
 			children = (
 				639357A91991294400AB8E1A /* AppDelegate.h */,
 				639357AA1991294400AB8E1A /* AppDelegate.m */,
-				639357AC1991294400AB8E1A /* ViewController.h */,
-				639357AD1991294400AB8E1A /* ViewController.m */,
 				639357AF1991294400AB8E1A /* Main.storyboard */,
 				639357B21991294400AB8E1A /* Images.xcassets */,
 				639357A51991294400AB8E1A /* Supporting Files */,
@@ -215,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				639357AE1991294400AB8E1A /* ViewController.m in Sources */,
 				639357AB1991294400AB8E1A /* AppDelegate.m in Sources */,
 				639357A81991294400AB8E1A /* main.m in Sources */,
 			);
