@@ -12,6 +12,7 @@
 		639357B11991294400AB8E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639357AF1991294400AB8E1A /* Main.storyboard */; };
 		639357B31991294400AB8E1A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639357B21991294400AB8E1A /* Images.xcassets */; };
 		639357BF1991294400AB8E1A /* UITableViewController_Challange_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357BE1991294400AB8E1A /* UITableViewController_Challange_SolutionTests.m */; };
+		639357CA1991309D00AB8E1A /* CCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639357C91991309D00AB8E1A /* CCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		639357B81991294400AB8E1A /* UITableViewController Challange SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challange SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639357BD1991294400AB8E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		639357BE1991294400AB8E1A /* UITableViewController_Challange_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challange_SolutionTests.m; sourceTree = "<group>"; };
+		639357C81991309D00AB8E1A /* CCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTableViewController.h; sourceTree = "<group>"; };
+		639357C91991309D00AB8E1A /* CCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				639357A91991294400AB8E1A /* AppDelegate.h */,
 				639357AA1991294400AB8E1A /* AppDelegate.m */,
 				639357AF1991294400AB8E1A /* Main.storyboard */,
+				639357C81991309D00AB8E1A /* CCTableViewController.h */,
+				639357C91991309D00AB8E1A /* CCTableViewController.m */,
 				639357B21991294400AB8E1A /* Images.xcassets */,
 				639357A51991294400AB8E1A /* Supporting Files */,
 			);
@@ -212,6 +217,7 @@
 			files = (
 				639357AB1991294400AB8E1A /* AppDelegate.m in Sources */,
 				639357A81991294400AB8E1A /* main.m in Sources */,
+				639357CA1991309D00AB8E1A /* CCTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
